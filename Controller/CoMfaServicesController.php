@@ -1,6 +1,4 @@
 <?php
-
-
 App::uses("StandardController", "Controller");
 
 class CoMfaServicesController extends StandardController
@@ -227,7 +225,7 @@ class CoMfaServicesController extends StandardController
    * - precondition: Session.Auth holds data used for authz decisions
    * - postcondition: $permissions set with calculated permissions
    *
-   * @since  COmanage Registry v2.0.0
+   * @@since  COmanage Registry v3.1.1
    * @return Array Permissions
    */
   
@@ -246,8 +244,7 @@ class CoMfaServicesController extends StandardController
     // Fetch or verify code (for this CO Person)?
     $p['fetchCode'] = ($roles['cmadmin'] || $roles['coadmin']) || $self;
     $p['verifyCode'] = ($roles['cmadmin'] || $roles['coadmin']) || $self;
-    
-    // View all existing CO Service Tokens (for this CO Person)?
+
     $p['index'] = ($roles['cmadmin'] || $roles['coadmin']) || $self;
     
     $this->set('permissions', $p);

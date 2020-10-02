@@ -19,9 +19,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @link          http://www.internet2.edu/comanage COmanage Project
+ * @link          https://github.com/rciam
  * @package       registry
- * @since         COmanage Registry v2.0.0
+ * @since         COmanage Registry v3.1.1
  * @license       Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
  */
 

@@ -60,7 +60,7 @@ class CoMfaService extends AppModel
    * Expose menu items.
    *
    * @return Array with menu location type as key and array of labels, controllers, actions as values.
-   * @since  COmanage Registry v2.0.0
+   * @@since  COmanage Registry v3.1.1
    */
 
   public function cmPluginMenus()

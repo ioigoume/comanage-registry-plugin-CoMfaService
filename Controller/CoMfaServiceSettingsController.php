@@ -19,9 +19,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @link          http://www.internet2.edu/comanage COmanage Project
+ * @link          https://github.com/rciam
  * @package       registry
- * @since         COmanage Registry v2.0.0
+ * @since         COmanage Registry v3.1.1
  * @license       Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
  */
 
@@ -88,7 +88,7 @@ class CoMfaServiceSettingsController extends StandardController {
    * - precondition: Session.Auth holds data used for authz decisions
    * - postcondition: $permissions set with calculated permissions
    *
-   * @since  COmanage Registry v2.0.0
+   * @@since  COmanage Registry v3.1.1
    * @return Array Permissions
    */
   
@@ -111,7 +111,7 @@ class CoMfaServiceSettingsController extends StandardController {
    * For Models that accept a CO ID, find the provided CO ID.
    * - precondition: A coid must be provided in $this->request (params or data)
    *
-   * @since  COmanage Registry v2.0.0
+   * @@since  COmanage Registry v3.1.1
    * @return Integer The CO ID if found, or -1 if not
    */
   
