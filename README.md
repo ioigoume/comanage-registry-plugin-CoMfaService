@@ -1,1 +1,1 @@
-# comanage-registry-plugin-SmsAuthenticator
+# comanage-registry-plugin-CoMfaService
